@@ -16,6 +16,11 @@
 <style>
 @media only screen and (max-width: 600px) {
   .logo {margin: 10px 0px 0px 50px ; z-index: 9; position: absolute;}
+  .container {display: none; !important}
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .mobile {display: none;}
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -26,6 +31,9 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
+<div class="mobile">
+  <center><a href="https://chat.buildmy.city"><img src="bmclogo_400x131.png" alt="Join our Discord" /></a></center>
+</div>
 <div class="container">
   <div class="logo">
 
